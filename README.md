@@ -1,4 +1,8 @@
 # PANEL-OVPN
+### system update
+```
+apt update && apt upgrade - y
+```
 
 ### Install docker 
 ```
