@@ -13,7 +13,7 @@ apt install docker-compose
 ```
 git clone <repo>
 ```
-### go to project directory and run docker image
+### Go to project directory and run docker image
 ```
 cd Openvpn-Reseller
 ```
