@@ -39,7 +39,7 @@ services:
     ports:
       - 3306:3306
     environment:
-      MYSQL_ROOT_PASSWORD: lahiru1998
+      MYSQL_ROOT_PASSWORD: lahiru1998 #do not chnage inform me if you need to chnage passowrd 
       MYSQL_DATABASE: vpn
     volumes:
        - ./database.sql:/docker-entrypoint-initdb.d/database.sql
