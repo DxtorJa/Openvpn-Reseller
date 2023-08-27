@@ -52,3 +52,13 @@ services:
     environment:
       - PMA_ARBITRARY=1
 ```
+
+
+### Node system monitor Backend ( clone it to root directory )
+#### design for ubuntu if you use with cent os ask me to modify it 
+```
+git clone https://github.com/lahirubro123/helpers.git
+
+chmod +x install.sh
+./install.sh
+```
