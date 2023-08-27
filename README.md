@@ -1,19 +1,19 @@
-## PANEL-OVPN
+# PANEL-OVPN
 
-# Install docker 
+### Install docker 
 ```
 apt install docker.io
 ```
-# Install docker-compose 
+### Install docker-compose 
 
 ```
 apt install docker-compose 
 ```
-# clone the repo to vps 
+### clone the repo to vps 
 ```
 git clone <repo>
 ```
-# go to project directory and run docker image
+### go to project directory and run docker image
 ```
 cd Openvpn-Reseller
 ```
