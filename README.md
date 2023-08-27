@@ -78,7 +78,7 @@ chmod +x install.sh
 
 ## Screenshots
 
-![App Screenshot](Screenshot 2023-08-27 235605.png)
+![App Screenshot](https://github.com/DxtorJa/DxtorJa/blob/main/Screenshot%202023-08-27%20235605.png?raw=true)
 
 
 ## Authors
