@@ -2,11 +2,9 @@ version: '3'
 
 services:
   ui:
-    image: lahiru98s/sshweb:2.0
+    image: lahiru98s/openvpn-panel:1.0
     ports:
       - 8080:80
-    volumes:
-      - ./src:/var/www/html
           
 
   db:
@@ -27,3 +25,4 @@ services:
       - 8090:80
     environment:
       - PMA_ARBITRARY=1
+
