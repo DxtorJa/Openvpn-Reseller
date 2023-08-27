@@ -22,8 +22,7 @@ docker-compose up -d
 ```
 
 
-
-
+### sample  docker-compose image
 ```
 version: '3'
 
