@@ -1,4 +1,13 @@
-# PANEL-OVPN
+
+## Features
+
+- Any openvpn backend support
+- Easy user management 
+- Reseller addon
+- User Expire date 
+- Easy install with docker 
+
+## PANEL-OVPN
 ### system update
 ```
 apt update && apt upgrade - y
@@ -66,3 +75,13 @@ git clone https://github.com/lahirubro123/helpers.git
 chmod +x install.sh
 ./install.sh
 ```
+
+## Screenshots
+
+![App Screenshot](Screenshot 2023-08-27 235605.png)
+
+
+## Authors
+
+- [@nooblk98](https://www.fiverr.com/nooblk98)
+
