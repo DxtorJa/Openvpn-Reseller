@@ -5,7 +5,8 @@ services:
     image: lahiru98s/openvpn-panel:1.0
     ports:
       - 8080:80
-          
+    volumes:
+      - ./src/system/resources/views:/var/www/html/system/resources/views
 
   db:
     image: mariadb:10.6
