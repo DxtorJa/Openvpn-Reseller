@@ -82,6 +82,7 @@ sudo systemctl restart openvpn
 
 ```
 find / -name "openvpn-plugin-auth-pam.so"
+auth-user-pass
 ```
 
 
