@@ -66,7 +66,7 @@ services:
       - PMA_ARBITRARY=1
 ```
 
-### sample  docker-compose image
+### fix authendication 
 ```
 sudo apt-get install libpam-pwdfile
 ```
