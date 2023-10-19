@@ -66,6 +66,27 @@ services:
       - PMA_ARBITRARY=1
 ```
 
+### sample  docker-compose image
+```
+sudo apt-get install libpam-pwdfile
+```
+```
+plugin /usr/lib/x86_64-linux-gnu/openvpn/plugins/openvpn-plugin-auth-pam.so login
+client-cert-not-required
+username-as-common-name
+```
+
+```
+sudo systemctl restart openvpn
+```
+
+```
+find / -name "openvpn-plugin-auth-pam.so"
+```
+
+
+
+
 
 ### Node system monitor Backend ( clone it to root directory )
 #### design for ubuntu if you use with cent os ask me to modify it 
